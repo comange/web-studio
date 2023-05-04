@@ -2,7 +2,7 @@ h1{font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
-    /*letter-spacing: 0.06em;*/
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;}
 h2{font-weight: 700;
@@ -32,7 +32,8 @@ h2{font-weight: 700;
                 font-size: 26px;
                 font-weight: 700;
                 line-height: 31px;
-                text-align: left;}
+                text-align: left;
+                color: #2196F3;}
         .explanation{font-weight: 400;
             font-size: 14px;
             line-height: 24px;
@@ -47,7 +48,7 @@ h2{font-weight: 700;
             line-height: 19px;
             text-align: center;
             color: #757575;}
-        .team{width: 270px;
+        /*.team{width: 270px;
             height: 260px;
             top: 1632px;}
             .room{width: 370px;
@@ -58,7 +59,8 @@ h2{font-weight: 700;
                     width: 216px;
                     height: 50px;
                     left: 692px;
-                    top: 430px;}
+                    top: 430px;}*/
 *{font-family: 'Roboto';
 font-style: normal;
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+list-style: none;}
