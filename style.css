@@ -1,53 +1,84 @@
-h1{font-weight: 900;
+body
+{font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.03em;}
+
+    ul
+    {list-style: none;}
+
+    a
+    {text-decoration: none;}
+
+h1
+{font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;}
-h2{font-weight: 700;
+
+h2
+{font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     color: #212121;}
-    h5{font-weight: 700;
+    
+    h5
+    {font-weight: 700;
         font-size: 14px;
         line-height: 16px;
         text-transform: uppercase;
         color: #212121;}
-    footer{font-weight: 400;
+
+    footer
+    {font-weight: 400;
         font-size: 14px;
         line-height: 24px;
         color: rgba(255, 255, 255, 0.6);}
-    #adress{font-weight: 400;
+
+    #adress
+    {font-weight: 400;
         font-size: 14px;
         line-height: 24px;
         color: rgba(255, 255, 255, 1);}
-        nav p, footer p{font-family: Oleo Script;
+
+        nav p, footer p
+        {font-family: Oleo Script;
             font-size: 26px;
             font-weight: 400;
             line-height: 36px;
             text-align: left;}
-            .web{font-family: Raleway;
+
+            .web
+            {font-family: Raleway;
                 font-size: 26px;
                 font-weight: 700;
                 line-height: 31px;
                 text-align: left;
                 color: #2196F3;}
-        .explanation{font-weight: 400;
+
+        .explanation
+        {font-weight: 400;
             font-size: 14px;
             line-height: 24px;
             color: #757575;}
-        .name{font-weight: 500;
+
+        .name
+        {font-weight: 500;
             font-size: 16px;
             line-height: 19px;
             text-align: center;
             color: #212121;}
-        .profession{font-weight: 400;
+
+        .profession
+        {font-weight: 400;
             font-size: 16px;
             line-height: 19px;
             text-align: center;
             color: #757575;}
+
         /*.team{width: 270px;
             height: 260px;
             top: 1632px;}
@@ -60,7 +91,3 @@ h2{font-weight: 700;
                     height: 50px;
                     left: 692px;
                     top: 430px;}*/
-*{font-family: 'Roboto';
-font-style: normal;
-letter-spacing: 0.03em;
-list-style: none;}
