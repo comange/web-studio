@@ -7,7 +7,7 @@
     --primary-background-color: #ffffff;
     --secondary-background-color: #2f303a;
     --spare-background-color: #f5f4fa;
-    --acent-color: #2196f3;
+    --accent-color: #2196f3;
 }
 
 
@@ -73,7 +73,7 @@ header {
     font-family: 'Raleway' , sans-serif;
     font-weight: 700;
     line-height: 31px;
-    color: var(--acent-color)
+    color: var(--accent-color)
 }
 
 
@@ -112,18 +112,6 @@ nav a {
 }
 
 
-.icon-mail-gray {
-    width: 16px;
-    height: 12px;
-}
-
-
-.icon-phone-gray {
-    width: 10px;
-    height: 16px;
-}
-
-
 .slink {
     color: var(--shadow-color);
 }
@@ -131,13 +119,13 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-    color: var(--acent-color);
+    color: var(--accent-color);
 }
 
 
 /* nav svg:hover,
 nav svg:focus {
-    color: var(--acent-color);
+    color: var(--accent-color);
 } */
 
 /*Hero*/
@@ -171,7 +159,7 @@ h1 {
 }
 
 
-.hero button {
+.hero-button {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -185,7 +173,7 @@ h1 {
     text-align: center;
     padding: 0px;
     color: var(--primary-background-color);
-    background-color: var(--acent-color);
+    background-color: var(--accent-color);
 }
 
 /*Advantages*/
@@ -324,21 +312,29 @@ h1 {
     width: 270px;
     height: 260px;
     top: 1632px;
+    margin-bottom: 24px;
+}
+
+
+.mem-svg {
+    margin-bottom: 26px;
 }
 
 
 .name {
-    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    font-family: 'Roboto'
+    font-family: 'Roboto';
 }
 
 
 .prof {
-    padding-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -388,7 +384,7 @@ footer li {
     font-family: 'Raleway' , sans-serif;
     line-height: 31px;
     font-weight: 700;
-    color: var(--acent-color);
+    color: var(--accent-color);
 }
 
 
@@ -398,4 +394,157 @@ address {
     font-style: normal;
     display: inline;
     color: var(--primary-background-color);
+}
+
+/* Symbols */
+
+.icon-mail-g {
+    width: 16px;
+    height: 12px;
+}
+
+
+.icon-phone-g {
+    width: 10px;
+    height: 16px;
+}
+
+
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin {
+    width: 32px;
+    height: 32px;
+    fill: #AFB1B8;
+}
+
+
+.icon-phone-b,
+.icon-mail-b,
+.icon-person-b {
+    width: 32px;
+    height: 32px;
+}
+
+/* Modal */
+
+.backdrop {
+    display: flex;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.modal {
+    position: relative;
+    left: 600px;
+    top: 90px;
+    background-color: #ffffff;
+    height: 770px;
+    width: 540px;
+    border-radius: 4px;
+    border: 1px;
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+
+.close {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: #ffffff;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.cross {
+    width: 11px;
+    height: 11px;
+    fill: #000000;
+    display: inline-flex;
+}
+
+
+.field input {
+    height: 45px;
+    width: 70%;
+    padding-left: 45px;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.field svg {
+    position: relative;
+    right: 395px;
+    top: 10px;
+}
+
+
+.field input:hover,
+.field input:focus {
+    border-color: #2196f3;
+    border-width: 3px;
+}
+
+
+.field input:hover + .icon-person-b,
+.field input:hover + .icon-phone-b,
+.field input:hover + .icon-mail-b {
+    fill: #2196f3;
+}
+
+
+.classifier {
+    display: block;
+    margin-top: 10px;
+}
+
+
+textarea {
+    margin: 0px;
+    width: 70%;
+    margin-top: 3px;
+    padding: 10px;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.check {
+    margin-left: 40px;
+}
+
+
+.tlink {
+    color: #2196f3;
+}
+
+
+.sebutton {
+    margin-top: 35px;
+    position: relative;
+    left: 154px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    padding: 0px;
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
 }
