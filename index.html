@@ -56,7 +56,7 @@
     <div class="hero-container">
         <h1>Most efficient choice for your business</h1>
     </div>
-    <button type="button" class="hero-button">Order service</button>
+    <button type="button" class="hero-button" data-modal-open>Order service</button>
 </section>
 
 <!-- Advantage -->
@@ -85,12 +85,12 @@
     </li>
 </ul>
 
-<div class="backdrop">
-    <div class="modal">
+<div class="backdrop" data-modal>
+    <div class="modal" >
 
 
         <form action="" id="form">
-            <button type="button" class="close">
+            <button type="button" class="close" data-modal-close>
                 <svg class="cross">
                     <use href="./symbol-defs.svg#icon-cross"></use>
                 </svg>
@@ -297,4 +297,20 @@
     </div>
 </footer>
 </body>
+<script>
+    (() => {
+    const refs = {
+      openModalBtn: document.querySelector("[data-modal-open]"),
+      closeModalBtn: document.querySelector("[data-modal-close]"),
+      modal: document.querySelector("[data-modal]"),
+    };
+  
+    refs.openModalBtn.addEventListener('click', toggleModal);
+    refs.closeModalBtn.addEventListener('click', toggleModal);
+  
+    function toggleModal() {
+      refs.modal.classList.toggle('is-hidden');
+    }
+  })();
+  </script>
 </html>
