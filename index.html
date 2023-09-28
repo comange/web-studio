@@ -8,7 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Italiana&family=Oleo+Script&family=Playfair+Display&family=Raleway&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- <link rel="stylesheet" href="./style/main.css.map">
+    <link rel="stylesheet" href="./style/main.min.css">
+    <link rel="stylesheet" href="./style/main.min.css.map"> -->
 </head>
 <body>
 
@@ -65,9 +68,6 @@
 
 <ul class="a-list">
     <li class="atem" id="b1">
-        <!-- <svg class="icon-antenna">
-            <use href="./symbol-defs.svg#icon-antenna"></use>
-        </svg> -->
         <h3>Attention to every detail</h3>
         <p class="exp">Creative thinking , doubled with  formatting of every point in  the beginning of day-to-day work.</p>
     </li>
@@ -127,14 +127,15 @@
                      </svg>
                 </li>
                 <li>
-                    <p class="classifier">
+                    <label class="classifier">
                     Comment
-                    </p>
+                    </label>
                     <textarea name="" id="comment" cols="30" rows="10" placeholder="Leave a comment..."></textarea>
                 </li>
             </ul>
 
-            <label class="check">By checking the box, you agree to
+            <label class="check">
+                <input type="checkbox" class="checkbox"> By checking the box, you agree to
                 <a href="" class="tlink">Terms & Conditions</a>
             </label>
 
@@ -160,7 +161,12 @@
 <div>
     <ul>
         <li class="mem">
-            <img src="./image/team/member.jpg" alt="member1">
+            <img src="./image/team/member.jpg"
+            srcset="./image/team/dem@1x.jpg 1x,
+            ./image/team/dem@2x.jpg 2x,
+            ./image/team/dem@3x.jpg 3x"
+            width="270"
+            alt="member1">
             <p class="name">Iгop Дем'яненко</p>
             <p class="prof">Product Designer</p>
             <ul class="mem-svg">
