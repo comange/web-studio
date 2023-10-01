@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-color);
+    background-color: var(--primary-background-color);
+    width: 1600px;
+    /* height: 3200px; */
+    letter-spacing: 0.03em;
+    margin: 0px;
+}
+
+
+body::after body::before {
+    box-sizing: inherit;
+}
+
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+
+a,
+p,
+li,
+ul,
+ol,
+button,
+address {
+    list-style: none;
+    text-decoration: none;
+}
